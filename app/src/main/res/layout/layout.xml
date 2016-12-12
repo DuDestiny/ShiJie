@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".activity.MainActivity">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/img1"
+                android:src="@mipmap/icon_launcher"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+            <Button
+                android:id="@+id/mapbtn"
+                android:layout_toRightOf="@+id/img1"
+                android:textColor="#f0f"
+                android:layout_marginLeft="20sp"
+                android:layout_centerVertical="true"
+                android:textSize="20sp"
+                android:text="第一个Item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/img2"
+                android:src="@mipmap/icon_launcher"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+            <TextView
+                android:layout_toRightOf="@+id/img2"
+                android:textColor="#f0f"
+                android:layout_marginLeft="20sp"
+                android:layout_centerVertical="true"
+                android:textSize="20sp"
+                android:text="第二个Item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/img3"
+                android:src="@mipmap/icon_launcher"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+            <TextView
+                android:layout_toRightOf="@+id/img3"
+                android:textColor="#f0f"
+                android:layout_marginLeft="20sp"
+                android:layout_centerVertical="true"
+                android:textSize="20sp"
+                android:text="第三个Item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/img4"
+                android:src="@mipmap/icon_launcher"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+            <TextView
+                android:layout_toRightOf="@+id/img4"
+                android:textColor="#f0f"
+                android:layout_marginLeft="20sp"
+                android:layout_centerVertical="true"
+                android:textSize="20sp"
+                android:text="第四个Item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/img5"
+                android:src="@mipmap/icon_launcher"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+            <TextView
+                android:layout_toRightOf="@+id/img5"
+                android:textColor="#f0f"
+                android:layout_marginLeft="20sp"
+                android:layout_centerVertical="true"
+                android:textSize="20sp"
+                android:text="第五个Item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

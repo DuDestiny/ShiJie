@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/putong"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="普通" />
+    <item
+        android:id="@+id/weixing"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="卫星" />
+
+    <item
+        android:id="@+id/jiaotong"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="交通" />
+    <item
+        android:id="@+id/backtome"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="回到我的位置" />
+</menu>
